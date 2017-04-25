@@ -37,7 +37,7 @@ repoID = '2'
 def readitemcsv(filename):
 	'''
 	Takes reads the first column from an Excel created csv file and puts it into a python list
-	The csv file should have no header. 
+	 
 	'''
 	with open(filename, newline='') as f:
 		rows = csv.reader(f, delimiter=',')
